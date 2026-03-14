@@ -79,9 +79,9 @@ export default function Sidebar({ tab, setTab }) {
             background:`linear-gradient(135deg, ${T.accent}, ${T.violet})`,
             display:"flex", alignItems:"center", justifyContent:"center",
             fontSize:12, fontWeight:900, color:T.bg,
-          }}>NK</div>
+          }}>AK</div>
           <div style={{ flex:1 }}>
-            <div style={{ fontSize:12, fontWeight:700, color:T.text }}>Nina Kim</div>
+            <div style={{ fontSize:12, fontWeight:700, color:T.text }}>AMima Khan</div>
             <div style={{ fontSize:10, color:T.textDim }}>Marketing Admin</div>
           </div>
           <div style={{ width:7, height:7, borderRadius:"50%", background:T.success }} title="Online" />

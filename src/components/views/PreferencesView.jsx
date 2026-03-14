@@ -11,8 +11,8 @@ export default function PreferencesView({ showToast }) {
     notif_billing:           true,
     notif_team_activity:     false,
     // Email sending
-    from_name:    "Nina Kim",
-    from_email:   "nina@nexuscrm.io",
+    from_name:    "Amima Khan",
+    from_email:   "amima@nexuscrm.io",
     reply_to:     "support@nexuscrm.io",
     timezone:     "America/New_York",
     send_window:  "business",

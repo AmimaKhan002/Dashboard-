@@ -59,7 +59,7 @@ export const INIT_INTEGRATIONS = [
 ];
 
 export const INIT_TEAM = [
-  { id:1, name:"Nina Kim",      email:"nina@nexuscrm.io",     role:"Admin",    avatar:"NK", color:T.accent,  status:"active",  lastActive:"Now",         joined:"Jan 2025"  },
+  { id:1, name:"Amima Khan",    email:"amima@nexuscrm.io",     role:"Admin",    avatar:"AK", color:T.accent,  status:"active",  lastActive:"Now",         joined:"Jan 2025"  },
   { id:2, name:"Ravi Patel",    email:"r.patel@nexuscrm.io",  role:"Editor",   avatar:"RP", color:T.sky,     status:"active",  lastActive:"5 min ago",   joined:"Feb 2025"  },
   { id:3, name:"Chloe Martin",  email:"c.martin@nexuscrm.io", role:"Viewer",   avatar:"CM", color:T.violet,  status:"active",  lastActive:"2 hr ago",    joined:"Mar 2025"  },
   { id:4, name:"Dev Anand",     email:"d.anand@nexuscrm.io",  role:"Editor",   avatar:"DA", color:T.amber,   status:"active",  lastActive:"Yesterday",   joined:"Jan 2025"  },

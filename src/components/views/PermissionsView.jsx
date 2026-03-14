@@ -95,12 +95,12 @@ export default function PermissionsView({ showToast }) {
               </div>
               {/* Role selector */}
               <select value={m.role} onChange={e => changeRole(m.id, e.target.value)}
-                disabled={m.name === "Nina Kim"}
-                style={{ background: roleBg[m.role], border:`1px solid ${roleColor[m.role]}44`, borderRadius:8, padding:"5px 10px", color:roleColor[m.role], fontSize:11, fontWeight:800, outline:"none", cursor: m.name==="Nina Kim" ? "default" : "pointer", fontFamily:"inherit" }}>
+                disabled={m.name === "Amima Khan"}
+                style={{ background: roleBg[m.role], border:`1px solid ${roleColor[m.role]}44`, borderRadius:8, padding:"5px 10px", color:roleColor[m.role], fontSize:11, fontWeight:800, outline:"none", cursor: m.name==="AMima Khan" ? "default" : "pointer", fontFamily:"inherit" }}>
                 {["Admin","Editor","Viewer"].map(r => <option key={r}>{r}</option>)}
               </select>
               {/* Remove */}
-              {m.name !== "Nina Kim" && (
+              {m.name !== "Amima Khan" && (
                 <button onClick={() => setRemoveConfirm(m.id)} style={{ width:28, height:28, borderRadius:7, background:"transparent", border:`1px solid ${T.border}`, color:T.textDim, cursor:"pointer", fontSize:14, display:"flex", alignItems:"center", justifyContent:"center" }}>✕</button>
               )}
             </div>
